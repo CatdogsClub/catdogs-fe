@@ -1,2 +1,2 @@
 # catdogs-fe
-fe
+Front-end using Next.js

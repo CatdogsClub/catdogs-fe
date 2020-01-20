@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 
 const links = [
+  { href: '/tutorial', label: '经验' },
   { href: '/gif', label: 'GIF' },
-  { href: '/tutorial', label: 'Tutorial' },
-  { href: 'https://zeit.co/now', label: 'ZEIT' }
+  // { href: 'https://zeit.co/now', label: 'ZEIT' }
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
@@ -15,7 +15,7 @@ const Nav = () => (
     <ul>
       <li>
         <Link href='/'>
-          <a>Home</a>
+          <a>主页</a>
         </Link>
       </li>
       {links.map(({ key, href, label }) => (

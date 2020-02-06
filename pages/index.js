@@ -15,7 +15,7 @@ const Home = () => (
     <Nav />
 
     <div className={css.main}>
-      本站旨在记录本人饲养小猫小狗的经验
+      本站旨在记录本人饲养小猫小狗的经验  
     </div>
 
     <Foot />

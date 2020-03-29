@@ -1,4 +1,4 @@
-sudo: true 
+sudo: true
 language: node_js
 node_js:
 - 10
@@ -25,9 +25,10 @@ deploy:
     branch: master
   local_dir: dist
 before_install:
+- openssl aes-256-cbc -K $encrypted_0ddd2445e49f_key -iv $encrypted_0ddd2445e49f_iv
+  -in travis_rsa.enc -out travis_rsa -d
 - openssl aes-256-cbc -K $encrypted_9b2d7e19d83c_key -iv $encrypted_9b2d7e19d83c_iv
   -in id_rsa.enc -out ~\/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host $PROD_SERVER_IP\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-after_deploy:
-  ssh root@$PROD_SERVER_IP 'pwd'
+after_deploy: ssh root@$PROD_SERVER_IP 'pwd'

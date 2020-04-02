@@ -7,13 +7,14 @@ branches:
   only:
   - master
 install:
+- yarn add global pm2
 - yarn install
 script:
 - yarn build
 after_success:
 - mkdir dist
 - cp -r .next/ dist/.next
-- cp package.json dist
+- cp package.json ecosystem.config.js dist
 deploy:
   provider: pages
   skip_cleanup: true
@@ -30,3 +31,5 @@ before_install:
 - chmod 600 travis_rsa
 - mv travis_rsa ~/.ssh/id_rsa
 - cat server.pub >> $HOME/.ssh/known_hosts
+after_deploy:
+- pm2 deploy pm2.config.js prod setup --force

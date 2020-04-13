@@ -28,12 +28,12 @@
     "byName": {
       "commons": 0,
       "static/runtime/webpack.js": 1,
-      "static/runtime/main.js": 2,
-      "static/trvqEGg3eGWjEK6r6w6u_/pages/_app.js": 3,
-      "static/trvqEGg3eGWjEK6r6w6u_/pages/_error.js": 4,
-      "static/trvqEGg3eGWjEK6r6w6u_/pages/gif.js": 5,
-      "static/trvqEGg3eGWjEK6r6w6u_/pages/index.js": 6,
-      "static/trvqEGg3eGWjEK6r6w6u_/pages/tutorial.js": 7
+      "static/TrZKIdnx6UNHXfacHQgIq/pages/_app.js": 2,
+      "static/TrZKIdnx6UNHXfacHQgIq/pages/_error.js": 3,
+      "static/TrZKIdnx6UNHXfacHQgIq/pages/gif.js": 4,
+      "static/TrZKIdnx6UNHXfacHQgIq/pages/index.js": 5,
+      "static/TrZKIdnx6UNHXfacHQgIq/pages/tutorial.js": 6,
+      "static/runtime/main.js": 7
     },
     "bySource": {},
     "usedIds": [

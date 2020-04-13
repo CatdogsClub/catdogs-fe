@@ -10,8 +10,8 @@ module.exports = {
     deploy: {
         // "prod" is the environment name
         prod: {
-            user: 'hyh',
-            key: '~/.ssh/id_rsa',
+            user: 'travis',
+            key: '~/.ssh/authorized_keys',
             host: ['118.24.146.34'],
             ssh_options: 'StrictHostKeyChecking=no',
             // 拉取部署分支

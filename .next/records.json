@@ -28,11 +28,11 @@
     "byName": {
       "commons": 0,
       "static/runtime/webpack.js": 1,
-      "static/nDU0CAB0_NlRFLfH_Q6oe/pages/_app.js": 2,
-      "static/nDU0CAB0_NlRFLfH_Q6oe/pages/_error.js": 3,
-      "static/nDU0CAB0_NlRFLfH_Q6oe/pages/gif.js": 4,
-      "static/nDU0CAB0_NlRFLfH_Q6oe/pages/index.js": 5,
-      "static/nDU0CAB0_NlRFLfH_Q6oe/pages/tutorial.js": 6,
+      "static/lfZVY-4dheBZvDTBAj0hO/pages/_app.js": 2,
+      "static/lfZVY-4dheBZvDTBAj0hO/pages/_error.js": 3,
+      "static/lfZVY-4dheBZvDTBAj0hO/pages/gif.js": 4,
+      "static/lfZVY-4dheBZvDTBAj0hO/pages/index.js": 5,
+      "static/lfZVY-4dheBZvDTBAj0hO/pages/tutorial.js": 6,
       "static/runtime/main.js": 7
     },
     "bySource": {},

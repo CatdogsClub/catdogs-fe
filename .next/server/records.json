@@ -19,12 +19,12 @@
   },
   "chunks": {
     "byName": {
-      "static/lfZVY-4dheBZvDTBAj0hO/pages/_app.js": 0,
-      "static/lfZVY-4dheBZvDTBAj0hO/pages/_document.js": 1,
-      "static/lfZVY-4dheBZvDTBAj0hO/pages/_error.js": 2,
-      "static/lfZVY-4dheBZvDTBAj0hO/pages/gif.js": 3,
-      "static/lfZVY-4dheBZvDTBAj0hO/pages/index.js": 4,
-      "static/lfZVY-4dheBZvDTBAj0hO/pages/tutorial.js": 5
+      "static/ILgdngzpOeSBezmrzvKc4/pages/_app.js": 0,
+      "static/ILgdngzpOeSBezmrzvKc4/pages/_document.js": 1,
+      "static/ILgdngzpOeSBezmrzvKc4/pages/_error.js": 2,
+      "static/ILgdngzpOeSBezmrzvKc4/pages/gif.js": 3,
+      "static/ILgdngzpOeSBezmrzvKc4/pages/index.js": 4,
+      "static/ILgdngzpOeSBezmrzvKc4/pages/tutorial.js": 5
     },
     "bySource": {},
     "usedIds": [

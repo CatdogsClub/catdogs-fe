@@ -20,7 +20,7 @@ module.exports = {
             repo: 'git@github.com:CatdogsClub/catdogs-fe.git',
             // 部署 remote 路径
             path: '/usr/hyh/catdogs-fe-auto-deployment',
-            'post-deploy': 'yarn install && pm2 reload ecosystem.config.js'
+            'post-deploy': '.  /root/.nvm/nvm.sh && yarn install && pm2 reload ecosystem.config.js'
         },
     }
 }
